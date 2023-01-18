@@ -1,4 +1,10 @@
 delete_merged_file: true
 language:
   ui:
-    chapter_name: "Unidad "
+    chapter_name: " "
+    bibliography_name: "Referencias"
+  label: 
+    fig: "Figura"
+    tab: "Tabla"
+    eq: "Ecuación"
+output_dir: "docs"

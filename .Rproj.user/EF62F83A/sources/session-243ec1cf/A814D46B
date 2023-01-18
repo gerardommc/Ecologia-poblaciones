@@ -3,7 +3,7 @@
     "path": "~/Documentos/Cosas ENES/Materias/Ecologia-poblaciones/_bookdown.yml",
     "project_path": "_bookdown.yml",
     "type": "yaml",
-    "hash": "2163662363",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1674055110255.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "3,27",
+        "cursorPosition": "9,18",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1674055128,
+    "lastKnownWriteTime": 1674061708,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1674055128167,
+    "last_content_update": 1674061708460,
     "read_only": false,
     "read_only_alternatives": []
 }
