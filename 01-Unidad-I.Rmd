@@ -2,3 +2,16 @@
 
 ## Preguntas centrales de la ecología de poblaciones
 
+```{r echo = F, child="Unidad-I/Preguntas-centrales.Rmd"}
+
+```
+
+## Definición de individuo
+
+### Organismos unitarios
+
+### Organismos modulares
+
+## Definición de población
+
+## Ciclos de vida de los organismos
