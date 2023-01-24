@@ -1,59 +1,27 @@
---- 
-title: "Ecología de Poblaciones"
+---
+title: "Ecología de poblaciones"
+description: "Licenciatura en Ecología"
 author: "Gerardo Martín"
-date: "`r Sys.Date()`"
-site: bookdown::bookdown_site
-documentclass: book
-bibliography: [book.bib, packages.bib]
-# url: your book url like https://bookdown.org/yihui/bookdown
-# cover-image: path to the social sharing image like images/cover.jpg
-description: |
-  Sitio del curso de 2o. semestre de la Licenciatura en Ecología 
-  de la ENES unidad Mérida, UNAM
-link-citations: yes
-github-repo: rstudio/bookdown-demo
+output:
+   prettydoc::html_pretty:
+      theme: hpstr
+      highlight: github
 ---
 
-# Encuadre
-
-## Sobre este sitio
-
-Este sitio ha sido creado con motivos didácticos y de referencia únicamente, no es un libro de texto ni un compendio exhaustivo de los temas en Ecología de Poblaciones
-
-## Uso 
-
-Se recomienda consultar est sitio con fines de seguimiento a los contenidos generales de clase, no es un sustituto de clase.
-
-## Criterios de evaluación
-
-Las constribuciones a cada calificación parcial serán:
-
-- Asistencia (25%)
-- Trabajos de clase cumplidos (50%)
-- Examen (25%)
-- Participación (2 puntos extra máximo) 
-
-Cabe señalar, que la asistencia corresponderá tanto a su frecuencia de asistencia como con el cumplimiento de los trabajos de clase. La participación se medirá tanto por participación directa como por el seguimiento que uds den a la clase en Google Classroom.
-
-## ¿Cómo se darán las clases?
-
-Todos los contenidos del curso, lecturas y presentaciones, se irán añadiendo a este sitio web conforme avanza el semestre. En el Google Classroom de la materia se irán anunciando las diferentes actividades y sesiones sincrónicas con anticipación suficiente. Igualmente, los examenes y resultados serán publicados a través de esta plataforma.
-
-## Reglas
-
-1. Hacer muchas preguntas
-2. Decirme si paso algo por alto
-3. Teléfonos apagados
-4. Se puede entrar y salir
-5. PARTICIPAR
-
-## Contacto
-
-Para reportar fallos, resolver dudas y peticiones especiales grupales o individuales por favor enviar correo electrónico a [gerardo.mmc@enesmerida.unam.mx](mailto:gerardo.mmc@enesmerida.unam.mx).
-
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
 ```
+
+1.  [Encuadre](Encuadre.pdf)
+    
+    - [Programa del curso](Programa.pdf)
+    
+2. Introducción a la ecología de poblaciones
+
+    - [Preguntas centrales de la ecología de poblaciones](Unidad-1/Preguntas-centrales.pdf)
+    
+    - [Definición de individuo](Unidad-1/Individuo.pdf)
+          
+    - [Definición de población](Unidad-1/Población.pdf)
+    
+    
