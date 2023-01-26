@@ -4,7 +4,7 @@ description: "Licenciatura en Ecología"
 author: "Gerardo Martín"
 output:
    prettydoc::html_pretty:
-      theme: hpstr
+      theme: cayman
       highlight: github
 ---
 
@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
     - [Preguntas centrales de la ecología de poblaciones](Unidad-1/Preguntas-centrales.pdf)
     
-    - [Definición de individuo](Unidad-1/Individuo.pdf)
+    - [Definición de individuo](Unidad-1/Individuos.pdf)
           
     - [Definición de población](Unidad-1/Población.pdf)
     
