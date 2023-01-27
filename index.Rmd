@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Ver [Encuadre](Encuadre.pdf) y [Programa del curso](Programa.pdf)
     
-2. Introducción a la ecología de poblaciones
+1. Introducción a la ecología de poblaciones
 
     - [Preguntas centrales de la ecología de poblaciones](Unidad-1/Preguntas-centrales.pdf)
     
@@ -22,7 +22,9 @@ Ver [Encuadre](Encuadre.pdf) y [Programa del curso](Programa.pdf)
           
     - [Definición de población](Unidad-1/Poblacion.pdf)
     
-3. La demografía
+    - [Ciclos de vida de los organismos](Unidad-1/Ciclos-vida.pdf)
+    
+2. La demografía
 
     - [Métodos para determinar el tamaño poblacional](Unidad-2/Metodos-tamano.pdf)
     
