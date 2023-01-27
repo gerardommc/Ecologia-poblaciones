@@ -12,9 +12,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-1.  [Encuadre](Encuadre.pdf)
-    
-    - [Programa del curso](Programa.pdf)
+Ver [Encuadre](Encuadre.pdf) y [Programa del curso](Programa.pdf)
     
 2. Introducción a la ecología de poblaciones
 
@@ -22,6 +20,16 @@ knitr::opts_chunk$set(echo = TRUE)
     
     - [Definición de individuo](Unidad-1/Individuos.pdf)
           
-    - [Definición de población](Unidad-1/Población.pdf)
+    - [Definición de población](Unidad-1/Poblacion.pdf)
     
+3. La demografía
+
+    - [Métodos para determinar el tamaño poblacional](Unidad-2/Metodos-tamano.pdf)
+    
+    - [Tablas de vida, curvas de sobrevivencia y matrices de proyección poblacional](Unidad-2/Tablas-vida-matrices.pdf)
+
+    - [Poblaciones con generaciones discretas](Unidad-2/Poblaciones-gen-discretas.pdf)
+    
+    - [Poblaciones con generaciones contínuas](Unidad-2/Poblaciones-gen-cont.pdf)
+
     
