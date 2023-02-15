@@ -26,7 +26,7 @@ Ver [Encuadre](Encuadre.pdf) y [Programa del curso](Programa.pdf)
     
 2. La demografía
 
-    - [Métodos para determinar el tamaño poblacional](Unidad-2/Metodos-tamano.pdf)
+    - [Métodos para determinar el tamaño poblacional](Unidad-2/Estimacion-tamano.pdf)
     
     - [Tablas de vida, curvas de sobrevivencia y matrices de proyección poblacional](Unidad-2/Tablas-vida-matrices.pdf)
 
