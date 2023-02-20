@@ -28,10 +28,10 @@ Ver [Encuadre](Encuadre.pdf) y [Programa del curso](Programa.pdf)
 
     - [Métodos para determinar el tamaño poblacional](Unidad-2/Estimacion-tamano.pdf)
     
-    - [Tablas de vida, curvas de sobrevivencia y matrices de proyección poblacional](Unidad-2/Tablas-vida-matrices.pdf)
+    - [Tablas de vida](Unidad-2/Tablas-vida.pdf)
 
-    - [Poblaciones con generaciones discretas](Unidad-2/Poblaciones-gen-discretas.pdf)
+    - [Curvas de supervivencia](Unidad-2/Curvas-sup.pdf)
     
-    - [Poblaciones con generaciones contínuas](Unidad-2/Poblaciones-gen-cont.pdf)
+    - [Matrices de proyección poblacional](Unidad-2/Matrices.pdf)
 
     
