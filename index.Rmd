@@ -34,4 +34,6 @@ Ver [Encuadre](Encuadre.pdf) y [Programa del curso](Programa.pdf)
     
     - [Matrices de proyección poblacional](Unidad-2/Matrices.pdf)
 
+    - [Modelos de crecimiento poblacional: competencia intraespecífica](Unidad-2/Modelos-crecimiento.pdf)
     
+    - [Regulación de las poblaciones](Unidad-2/Regulacion-poblaciones-pdf)
