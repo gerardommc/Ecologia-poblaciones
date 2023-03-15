@@ -37,3 +37,9 @@ Ver [Encuadre](Encuadre.pdf) y [Programa del curso](Programa.pdf)
     - [Modelos de crecimiento poblacional: competencia intraespecífica](Unidad-2/Modelos-crecimiento.pdf)
     
     - [Regulación de las poblaciones](Unidad-2/Regulacion-poblaciones-pdf)
+    
+3. Evolución de historias de vida
+
+    - [Componentes de la historia de vida](Unidad-3/Componentes-historia.pdf)
+    
+    - [Teoría de la selección *r* y *K*](Unidad-3/Teoria-seleccion.pdf)
