@@ -28,6 +28,8 @@ Ver [Encuadre](Encuadre.pdf) y [Programa del curso](Programa.pdf)
 
     - [Métodos para determinar el tamaño poblacional](Unidad-2/Estimacion-tamano.pdf)
     
+    - [Práctica de estimación de tamaño poblacional](Unidad-2/Practica-estimacion.html)
+    
     - [Tablas de vida](Unidad-2/Tablas-vida.pdf)
 
     - [Curvas de supervivencia](Unidad-2/Curvas-sup.pdf)
@@ -36,7 +38,7 @@ Ver [Encuadre](Encuadre.pdf) y [Programa del curso](Programa.pdf)
 
     - [Modelos de crecimiento poblacional: competencia intraespecífica](Unidad-2/Modelos-crecimiento.pdf)
     
-    - [Regulación de las poblaciones](Unidad-2/Regulacion-poblaciones-pdf)
+    - [Regulación de las poblaciones](Unidad-2/Regulacion-poblaciones.pdf)
     
 3. Evolución de historias de vida
 

@@ -1,0 +1,31 @@
+---
+title: "Preguntas"
+author: "Gerardo"
+date: "2023-03-21"
+output:
+        bookdown::html_document2:
+            toc: true 
+            number_sections: true
+            toc_float: true
+            theme: flatly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. ¿Cómo se llama el método de estimación de tamaño poblacional que utilizamos?
+
+2. ¿Cuáles son los supuestos del método utilizado, de modo que podamos interpretar los resultados como *tamaño poblacional*?
+
+3. ¿Qué limitaciones implican los supuestos del método utilizado?
+
+4. ¿Qué alternativas existen para controlar las limitaciones del método utilizado?
+
+5. ¿Qué representa el tamaño de la cuchara utilizada?
+
+6. ¿Cómo afecta el tamaño de la cuchara a las estimaciones?
+
+7. Enlista cinco técnicas equivalentes a la cuchara y los organismos en los que se utilizaría (p. ej. tipos de trampa o redes).
+
+[Volver a las indicaciones de la práctica](Practica-estimacion.html)

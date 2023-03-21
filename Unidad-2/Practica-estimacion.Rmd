@@ -1,0 +1,60 @@
+---
+title: "Práctica de estimación de tamaño poblacional"
+author: "Gerardo"
+date: "2023-03-21"
+output:
+        bookdown::html_document2:
+            toc: true 
+            number_sections: true
+            toc_float: true
+            theme: flatly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Materiales de la práctica
+
+1. Dos puños de frijoles blancos
+
+2. Un calcetín
+
+3. Una cuchara sopera y una cucharita
+
+4. Plumones marcadores permanentes de tres colores diferentes
+
+# Indicaciones
+
+1. Introduce uno de los puños de frijoles en el calcetín.
+
+2. Utilizando primero la cucharita, saca una muestra de frijoles del calcetín.
+
+3. Cuenta los frijoles que obtuviste y márcalos con alguno de los plumones. Registra el número de frijoles obtenido y devuélvelos ya marcados al calcetín.
+
+4. Vuelve a tomar una muestra con la misma cuchara y cuéntalos. Registra el número total de frijoles y el número de frijoles con marcas que obtuviste en esta segunda muestra.
+
+5. Repite el proceso otras dos veces, pero utilizando los plumones de diferente color para identificar si se trata de la segunda ó tercera vez.
+
+6. Al finalizar el proceso la tercera vez, cuenta todos los frijoles que hay en el calcetín, y cuenta también los frijoles que no tienen ninguna marca.
+
+7. Utilizando el segundo puño de frijoles repite el proceso de los puntos 1-6 utilizando la cuchara sopera.
+
+# Análisis
+
+Utilizando los datos colectados cada vez que realizaste el experimento, realiza los siguientes cálculos:
+
+$$ N = \frac{nK}{k} $$
+
+donde:
+
+- $N$ es el número total de animales en la población
+- $n$ es el número de animales capturados en la primera visita
+- $K$ es el número de animales capturados en la segunda visita
+- $k$ es el número de recapturados (que fueron marcados en la primera visita)
+
+# Redacción de reporte
+
+Para entregar esta tarea deberás de redactar un reporte, describiendo los métodos, resultados, discusión y conclusiones y bibliografía. En la discusión y conclusiones deberás responder [las preguntas](Preguntas-estimacion.html).
+
+*Es obligatorio incluir una sección de bibliografía, y no se aceptarán trabajos que hagan copia y pega de trabajos escritos por alguien más. Incluye además las citas dentro del texto, de modo que toda la bibliografía citada aparezca en la sección de referencias.*
