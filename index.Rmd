@@ -34,7 +34,7 @@ Ver [Encuadre](Encuadre.pdf) y [Programa del curso](Programa.pdf)
 
     - [Curvas de supervivencia](Unidad-2/Curvas-sup.pdf)
     
-    - [Matrices de proyección poblacional](Unidad-2/Matrices.pdf)
+    - [Matrices de proyección poblacional](Unidad-2/Matrices-proyeccion.pdf)
 
     - [Modelos de crecimiento poblacional: competencia intraespecífica](Unidad-2/Modelos-crecimiento.pdf)
     
