@@ -38,6 +38,8 @@ Ver [Encuadre](Encuadre.pdf) y [Programa del curso](Programa.pdf)
 
     - [Modelos de crecimiento poblacional: competencia intraespecífica](Unidad-2/Modelos-crecimiento.pdf)
     
+    - [Preguntas de práctica de competencia intraespecífica](Unidad-2/Preguntas-intra.html)
+    
     - [Regulación de las poblaciones](Unidad-2/Regulacion-poblaciones.pdf)
     
 3. Evolución de historias de vida
