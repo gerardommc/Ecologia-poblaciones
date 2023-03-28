@@ -45,3 +45,6 @@ Ver [Encuadre](Encuadre.pdf) y [Programa del curso](Programa.pdf)
     - [Componentes de la historia de vida](Unidad-3/Componentes-historia.pdf)
     
     - [Teoría de la selección *r* y *K*](Unidad-3/Seleccion-r-K.pdf)
+    
+    - [Compromisos](Unidad-3/Compromisos.pdf)
+  
