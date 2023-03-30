@@ -1,0 +1,13 @@
+---
+title: "Examen 1 de Ecología de Poblaciones"
+output: pdf_document
+author: "Nombre:"
+date: "2023-03-31"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. ¿Cómo se llama tu perro?
+

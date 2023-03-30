@@ -26,8 +26,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 6. ¿Qué limitaciones tienen las estimaciones de tamaño poblacional que se efctuaron?
 
-# Redacción de reporte
-
-Para entregar esta tarea deberás de redactar un reporte, describiendo los métodos, resultados, discusión y conclusiones y bibliografía. En la discusión y conclusiones deberás responder [las preguntas](Preguntas-estimacion.html).
+[Regresa a las indicaciones de la práctica](Practica-intra.html)
 
 *Es obligatorio incluir una sección de bibliografía, y no se aceptarán trabajos que hagan copia y pega de trabajos escritos por alguien más. Incluye además las citas dentro del texto, de modo que toda la bibliografía citada aparezca en la sección de referencias.*
