@@ -1,0 +1,52 @@
+---
+title: "Práctica de estimación de tamaño poblacional"
+author: "Gerardo"
+date: "2023-03-21"
+output:
+        bookdown::html_document2:
+            toc: true 
+            number_sections: true
+            toc_float: true
+            theme: flatly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Materiales de la práctica
+
+1. Dos puños de frijoles, uno de blancos y otro negros
+
+2. Un calcetín
+
+3. Una cucharita
+
+4. Plumones marcadores permanentes
+
+# Indicaciones
+
+A cada equipo se le han proporcionado dos bolsas, una con frijoles negros y otra con frijoles blancos. Los frijoles negros representan el recurso a consumir, mientras que los frijoles bayos representan la población que los consume. Para iniciar el experimento, toma de 5-10 frijoles blancos y deposítalos en la bolsa con frijoles negros. Sigue los siguientes pasos:
+
+1. Abre una hora de cálculo y registra cuántos frijoles introdujiste a la bolsa
+2. Revuelve bien la bolsa con los frijoles negros, introduce la cuchara que se te proporciona y toma una muestra
+
+3. Cuenta el número de frijoles blancos y negros que obtuviste. Si en la muestra hay más frijoles negros que blancos, introduce el mismo número de frijoles blancos que sacaste. En caso de sacar más frijoles blancos que negros, calcula la diferencia y saca los frijoles blancos en exceso. Por ejemplo, si sacaste 10 blancos y 6 negros, deberás sacar 4 blancos y regresar 6 a la bolsa.
+4. Registra cuántos frijoles blancos introduces cada vez que extraes con la cuchara.
+5. Repite el procedimiento 30 veces
+6. Grafica el cambio de número de frijoles blancos en cada paso de tiempo
+7. Realiza una estimación del tamaño poblacional con el método de la práctica pasada en los pasos 5, 15 y 30
+
+Deberás entregar un reporte respondiendo las preguntas.
+
+# Análisis
+
+Genera un gráfico que represente el tamaño total de la población de frijoles blancos a lo largo del ejercicio.
+
+Representa en el mismo gráfico las estimaciones de tamaño poblacional con la metodología de captura-recaptura.
+
+# Redacción de reporte
+
+Para entregar esta tarea deberás de redactar un reporte, describiendo los métodos, resultados, discusión y conclusiones y bibliografía. En la discusión y conclusiones deberás responder [las preguntas](Preguntas-intra.html).
+
+*Es obligatorio incluir una sección de bibliografía, y no se aceptarán trabajos que hagan copia y pega de trabajos escritos por alguien más. Incluye además las citas dentro del texto, de modo que toda la bibliografía citada aparezca en la sección de referencias.*
