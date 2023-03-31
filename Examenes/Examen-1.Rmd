@@ -9,5 +9,32 @@ date: "2023-03-31"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-1. ¿Cómo se llama tu perro?
+1. ¿Qué tipo de organismo son los siguientes?
 
+- *Crotophaga sultirostris*
+- *Beaucarnea pliabilis*
+- *Mammillaria gaumeri*
+- *Acropora cervicornis*
+- *Streptococcus intermedius*
+- *Fasciola hepatica*
+- *Dipylidium caninum*
+
+2. Utilizando menos de 50 palabras intenta definir "ciclo de vida".
+
+3. ¿Cómo se llama el método de estimación de tamaño poblacional que utilizamos en la práctica? Específicamente la ecuación:
+
+$$N = \frac{rK}{k}$$
+
+4. Utilizando el mismo método, estima los tamaños poblacionales para los siguientes muestreos:
+
+```{r echo=FALSE}
+n = rpois(10, 10)
+K = sapply(n, function(x)rpois(1, x)) - 2
+k = sapply(K, function(x)rpois(1, x*0.3))
+df <- data.frame(Tiempo = 1:10, n = n, K = K, k = k)
+knitr::kable(df)
+```
+
+5. Grafica los tamaños poblacionales estimados como función del tiempo.
+
+6. Calcula el éxito de recaptura.
