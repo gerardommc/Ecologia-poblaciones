@@ -23,11 +23,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 3. ¿Cómo se llama el método de estimación de tamaño poblacional que utilizamos en la práctica? Específicamente la ecuación:
 
-$$N = \frac{rK}{k}$$
+$$N = \frac{nK}{k}$$
 
 4. Utilizando el mismo método, estima los tamaños poblacionales para los siguientes muestreos:
 
 ```{r echo=FALSE}
+set.seed(234)
+
 n = rpois(10, 10)
 K = sapply(n, function(x)rpois(1, x)) - 2
 k = sapply(K, function(x)rpois(1, x*0.3))
@@ -38,3 +40,18 @@ knitr::kable(df)
 5. Grafica los tamaños poblacionales estimados como función del tiempo.
 
 6. Calcula el éxito de recaptura.
+
+\newpage
+
+7. Utilizando la siguiente tabla de vida, genera una curva de supervivencia e identifica si es de tipo 1, 2 ó 3
+
+```{r echo=F}
+lt <- read.csv("Tabla-examen-1.csv")
+knitr::kable(lt, caption = "Tabla de vida de *Spermopilus columbianus* (Zammuto 1987).")
+```
+
+8. Con base en la misma tabla calcula $R_0$, el número reproductivo base e indica si la población descrita crecerá ó decrecerá.
+
+9. ¿Qué concluyes sobre las etapas de crecimiento en un modelo logístico para la población de la tabla de vida? ¿En qué fase se encuentra esa población?
+
+10. Elabora tres hipótesis sobre los mecanismos que podrían estar regulando la población de ardillas de la tabla de vida. Se vale especular, pero que las hipótesis tengan sustento biológico con base en lo que vimos en clase.

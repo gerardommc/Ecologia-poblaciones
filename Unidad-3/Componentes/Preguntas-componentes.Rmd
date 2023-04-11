@@ -1,0 +1,19 @@
+---
+title: "Preguntas sobre componentes de las historias de vida"
+output: pdf_document
+date: "2023-04-11"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. Investiga dos ventajas y desventajas evolutivas de un tamaño corporal pequeño.
+
+2. ¿Cómo afecta el tamaño corporal la diferenciación?
+
+3. Investiga cómo el tamaño corporal afecta la susceptibilidad a la extinción en dos grupos de vertebrados.
+
+4. ¿Qué implicaciones evolutivas tendría? (Imagina las consecuencias para cada grupo)
+
+5. Explica en tus propias palabras el concepto de valor reproductivo.
