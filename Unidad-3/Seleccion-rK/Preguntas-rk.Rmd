@@ -1,0 +1,17 @@
+---
+title: "Preguntas sobre selección $r$ y $K$"
+output: pdf_document
+date: "2023-04-12"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. ¿Cómo se relacionan $r$ y $K$ con la cantidad de descedientes producidos por un individuo?
+
+2. Basandote en las figuras de la lectura, describe la evidencia que soporta la selección $r/K$
+
+3. ¿Qué características tienen los hábitats que favorecen la selección $r$?
+
+4. Busca y describe tres ejemplos que contradigan la selección $r/K$
