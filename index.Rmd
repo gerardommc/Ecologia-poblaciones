@@ -60,4 +60,8 @@ Ver [Encuadre](Encuadre.pdf) y [Programa del curso](Programa.pdf)
     
 5. Conservación y manejo de poblaciones
   
-    - [Análisis de viabilidad de poblaciones](Analisis-viabilidad.pdf)
+    - [Análisis de viabilidad de poblaciones](Unidad-5/Analisis-viabilidad.pdf)
+    
+    - [Efecto de la pérdida y fragmentación del hábitat](Unidad-5/Efecto-perdida-fragmentacion.pdf)
+    
+    - [Conservación de metapoblaciones](Unidad-5/Conservacion-meta.pdf)
