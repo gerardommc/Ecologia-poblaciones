@@ -1,13 +1,11 @@
-r <- 0.1; mig = 0.25; M <- 10
+r <- 0.1; mig = 0.05; M <- 5
 
 set.seed(123)
 
 n.pob <- 9
 
-K <- rpois(n.pob, 30)
+K <- round(rnorm(n.pob, 30, 12))
 image(matrix(K, 3, 3))
-
-library(raster)
 
 neigh <- matrix(c(0, 1, 0, 1, 0, 0, 0, 0, 0,
                   1, 0, 1, 0, 1, 0, 0, 0, 0,
@@ -23,7 +21,7 @@ neigh <- matrix(c(0, 1, 0, 1, 0, 0, 0, 0, 0,
 image(neigh)
 n.neigh <- rowSums(neigh)
 
-N0 <- c(15, rep(0, n.pob-1))
+N0 <- round(rnorm(9, mean = 7, sd = 3))
 
 time = 250
 
