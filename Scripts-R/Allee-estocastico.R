@@ -1,15 +1,32 @@
-r <- 0.025; K <- 30; M <- 15
+r <- 0.025; K <- c(20, 30, 40); M <- 15
 
-N0 <- c(15)
+N0 <- 20
 
+p.ext <- matrix(NA, nrow = 100, ncol = length(K))
+
+for(j in 1:length(K)){
 N <- matrix(0, ncol = 50, nrow = 100)
 N[, 1] <- N0
 for(i in 1:nrow(N)){
-  for(t in 1:49){
-    n <- rpois(1, N[i, t])
-    N[i, t+1] <- n + r*n*(1-n/K)*(n-M) 
+  for(t in 2:50){
+    n <- rpois(1, N[i, t-1])  # Tau leap
+    N[i, t] <- n + r*n*(1-n/K[j])*(n-M) 
   }
 }
+p.ext[, j] <- N[,50]
+}
+
+#Gillespie Stochastic Simulation Algorithm
+
+#Probabilidad de extinción en tres capacidades de carga diferentes
+p.df <- data.frame(p.ext)
+names(p.df) <- c("K1", "K2", "K3")
+
+p.m <- reshape2::melt(p.df)
+
+boxplot(value ~ variable, p.m)
+
+
 
 N.df <- data.frame(t(N))
 
