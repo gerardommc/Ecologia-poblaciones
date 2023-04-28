@@ -1,6 +1,6 @@
 A <- as.matrix(read.csv("Scripts-R/Silene-matriz.csv"))
 
-tiempo = 20
+tiempo = 10
 
 N <- matrix(0, nrow = 6, ncol = tiempo)
 
@@ -9,7 +9,11 @@ N0 <- c(0, 0, 0, 5, 5, 5)
 N[, 1] <- N0
 
 for(i in 2:tiempo){
-  N[, i] <- A %*% N[, i-1]
+  a <- A
+  a[] <- sapply(A[], function(x){rnorm(1, x, sd = x/4)})
+  a[] <- ifelse(a[] < 0, 0, a[])
+  n <-  a %*% N[, i-1]
+  N[, i] <- sapply(n, function(x){rpois(1, x)})
 }
 
 N.df <- data.frame(t(N))

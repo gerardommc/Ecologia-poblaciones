@@ -65,3 +65,5 @@ Ver [Encuadre](Encuadre.pdf) y [Programa del curso](Programa.pdf)
     - [Efecto de la pérdida y fragmentación del hábitat](Unidad-5/Efecto-perdida-fragmentacion.pdf)
     
     - [Conservación de metapoblaciones](Unidad-5/Conservacion-meta.pdf)
+    
+    - [Manejo de poblaciones: cosecha sustentable](Unidad-5/Manejo-cosecha.pdf)
