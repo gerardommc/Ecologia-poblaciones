@@ -1,13 +1,13 @@
 r <- 0.025; K <- 40; M <- 5
-c <- 0.25
+c <- 0.1
 
 N0 <- 20
 
-N <- matrix(0, ncol = 50, nrow = 100)
+N <- matrix(0, ncol = 100, nrow = 100)
 N[, 1] <- N0
 
 for(i in 1:nrow(N)){
-  for(t in 2:50){
+  for(t in 2:ncol(N)){
     n <- rpois(1, N[i, t-1])  # Tau leap
     C <- rpois(1, c * N[i, t-1])
     
@@ -24,13 +24,12 @@ for(i in 1:nrow(N)){
   }
 }
 
-
 N.df <- data.frame(t(N))
 
 N.m <- rowMeans(N.df)
 
-plot(1:50, N.df[,1], type = "l", ylim = c(0, 45),
+plot(1:ncol(N), N.df[,1], type = "l", ylim = c(0, 45),
      xlab = "Tiempo", ylab = "N", cex.axis = 2, lwd = 1,
      col = "grey")
-for(i in 2:nrow(N))lines(1:50, N.df[,i], col = "grey", lwd = 1)
-lines(1:50, N.m)
+for(i in 2:nrow(N))lines(1:ncol(N), N.df[,i], col = "grey", lwd = 1)
+lines(1:ncol(N), N.m)

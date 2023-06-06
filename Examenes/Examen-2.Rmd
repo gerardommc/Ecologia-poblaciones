@@ -1,0 +1,25 @@
+---
+title: "Examen 1 de Ecología de Poblaciones"
+output: pdf_document
+author: "Nombre:"
+date: "2023-03-31"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Con base en las últimas dos unidades (Metapoblaciones y ecología espacial), plantea un estudio para conservar las poblaciones **de uno** de los siguientes organismos endémicos de la península de yucatán:
+
+- *Campylorhynchus yucatanicus*
+- *Mammillaria gaumeri*
+- *Cachryx defensor*
+
+Deberás de incluir la siguiente información:
+
+1. ¿Se trata de un organismo modular ó unitario?
+2. ¿Cómo cuantificarías sus poblaciones?
+3. Identifica tres localidades donde se pudieran encontrar
+4. Crea una ilustración de posibles áreas naturales protegidas que contengan poblaciones de la especie que elegiste (Puedes utilizar [Naturalista](https://www.naturalista.mx/) como guía).
+5. Propón una serie de corredores que permitan el tránsito de individuos ó germoplasma entre las zonas protegidas.
+6. ¿Qué factores podrían estar presentes que limitarían el intercambio de individuos con base en las características biológicas de cada especie?
