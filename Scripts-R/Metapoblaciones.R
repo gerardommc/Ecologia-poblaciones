@@ -7,8 +7,6 @@ n.pob <- 9
 K <- rpois(n.pob, 5)
 image(matrix(K, 3, 3))
 
-library(raster)
-
 neigh <- matrix(c(0, 1, 0, 1, rep(0, 5),
                   1, 0, 1, 0, 1, rep(0, 4),
                   0, 1, 0, 0, 0, 1, rep(0, 3),
@@ -38,12 +36,13 @@ for(i in 2:time){
   N[, i] <- N[, i-1 ] + r * N[, i-1] * (1- N[, i-1]/K) - E + I
 }
 
+range(N)
+
+plot(1:time, N[1, ], type = "l", ylim = c(0, 9))
+for(i in 2:9){lines(1:time, N[i,], col = "grey")}
+
 library(animation)
 
 saveGIF(
     for(i in 1:time){image(matrix(N[, i], 3, 3), main = i)}
-)
-
-saveGIF(
-    for(i in 1:9)plot(1:25, N[i, ], type = "l", main = i)
 )
