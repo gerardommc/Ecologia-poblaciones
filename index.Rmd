@@ -12,7 +12,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Ver [Encuadre](Encuadre.pdf) y [Programa del curso](Programa.pdf)
+Ver [Encuadre](Encuadre.pdf), [Programa del curso](Programa.pdf) y [Calendario d participación de profesorxs](Calendario-EP.pdf)
     
 1. Introducción a la ecología de poblaciones
 
