@@ -28,4 +28,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 7. Enlista cinco técnicas equivalentes a la cuchara y los organismos en los que se utilizaría (p. ej. tipos de trampa o redes).
 
+8. ¿Qué supuesto del método utilizado es violado en el experimento 2?
+
+9. ¿Qué harías para resolver el problema que se presenta en el experimento 2?
+
 [Volver a las indicaciones de la práctica](Practica-estimacion.html)

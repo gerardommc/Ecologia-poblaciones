@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Materiales de la práctica
 
-1. Dos puños de frijoles blancos
+1. Dos puños de frijoles blancos y dos puños de frijoles más oscuros (bayos de preferencia)
 
 2. Un calcetín
 
@@ -28,7 +28,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Experimento 1 
 
-1. Introduce uno de los puños de frijoles en el calcetín.
+1. Introduce uno de los puños de frijoles blancos en el calcetín.
 
 2. Utilizando primero la cucharita, saca una muestra de frijoles del calcetín.
 
@@ -46,21 +46,21 @@ knitr::opts_chunk$set(echo = TRUE)
 
 1. Cuenta 120 frijoles, 40 blancos y 80 oscuros sin marcar e introdúcelos en el calcetín
 
-2. Utilizando la cuchara grande toma una muestra y márcalos todos y regresalos al calcetín
+2. Utilizando la cuchara grande toma una muestra, márcalos todos y regresalos al calcetín
 
 3. Ejecuta dos veces el programa [`simulacion.R`](simulacion.R) y extrae ó introduce el número de frijoles blancos (juveniles) y negros (adultos) que el programa te indica
 
-    - Cuado este programa se ejecuta utiliza varios argumentos, la primera vez que se ejecuta, sólo es necesario llamarlo, pero las veces subsecuentes es necesario sustituir los argumentos `n.juv` y `n.jad` por el resultado de la ejecución `total.juv` y `total.ad`. Los resultados de la ejecución que te indican cuántos hay que meter ó sacar de cada tipo son `d.juv` y `d.ad`.
+    - Para ejecutar este programa se necesitan varios argumentos por defecto todosya tienen vaores,así que la primera vez que se ejecuta, sólo es necesario llamarlo. No obstante, para las veces subsecuentes es necesario sustituir los argumentos `n.juv` y `n.ad` por los resultados de la ejecución de la primera vez `total.juv` y `total.ad`. Los resultados de la ejecución que te indican cuántos hay que meter ó sacar de cada tipo son `d.juv` y `d.ad`.
 
 4. Utilizando la cuchara grande toma una muestra y cuenta el número de frijoles no marcados y de frijoles marcados en el paso anterior
 
 5. Repite el paso **3** dos veces
 
-6. Repite los pasos **2-4** utilizando marcas que te permitan distinguir las utilizadas anteriormente   
+6. Repite los pasos **2-4** utilizando marcador dediferente color para distinguir estas marcas nuevas de las utilizadas anteriormente (igual que en el experimento 1).  
 
 # Análisis
 
-Utilizando los datos colectados cada vez que realizaste el experimento, realiza los siguientes cálculos:
+Utilizando los datos colectados cada vez que realizaste la *captura*, *marca* y *recaptura*, realiza el siguientes cálculos:
 
 $$ N = \frac{nK}{k} $$
 
@@ -73,6 +73,6 @@ donde:
 
 # Redacción de reporte
 
-Para entregar esta tarea deberás de redactar un reporte, describiendo los métodos, resultados, discusión y conclusiones y bibliografía. En la discusión y conclusiones deberás responder [las preguntas](Preguntas-estimacion.html).
+Para entregar esta tarea deberás de redactar un reporte, describiendo los métodos, resultados, discusión, conclusiones y bibliografía. En la discusión y conclusiones deberás responder [las preguntas](Preguntas-estimacion.html).
 
-*Es obligatorio incluir una sección de bibliografía, y no se aceptarán trabajos que hagan copia y pega de trabajos escritos por alguien más. Incluye además las citas dentro del texto, de modo que toda la bibliografía citada aparezca en la sección de referencias.*
+*Es obligatorio incluir una sección de bibliografía, y no se aceptarán trabajos que hagan copia y pega de trabajos escritos por alguien más ó por la IA. Incluye además las citas dentro del texto, de modo que toda la bibliografía citada aparezca en la sección de referencias.*
