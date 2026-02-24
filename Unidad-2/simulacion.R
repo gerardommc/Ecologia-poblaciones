@@ -1,4 +1,4 @@
-simulacion <- function(n.juv = NA, n.ad = NA, nac = 0.25, p.juv = 0.5, mort.juv = 0.25, mort.ad = 0.1){
+simulacion <- function(n.juv = 40, n.ad = 80, nac = 0.25, p.juv = 0.5, mort.juv = 0.25, mort.ad = 0.1){
   inc.juv  <-  rpois(1, n.ad * nac)
   dec.juv <- rpois(1, (p.juv + mort.juv) * n.juv)
   inc.ad <- rpois(1, p.juv * n.juv) 

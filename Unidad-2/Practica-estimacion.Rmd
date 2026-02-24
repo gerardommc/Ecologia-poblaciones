@@ -48,9 +48,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 2. Utilizando la cuchara grande toma una muestra, márcalos todos y regresalos al calcetín
 
-3. Ejecuta dos veces el programa [`simulacion.R`](simulacion.R) y extrae ó introduce el número de frijoles blancos (juveniles) y negros (adultos) que el programa te indica
+3. Ejecuta dos veces el programa [`simulacion.R`](simulacion.R) y extrae o introduce el número de frijoles blancos (juveniles) y negros (adultos) que el programa te indica
 
-    - Para ejecutar este programa se necesitan varios argumentos por defecto todosya tienen vaores,así que la primera vez que se ejecuta, sólo es necesario llamarlo. No obstante, para las veces subsecuentes es necesario sustituir los argumentos `n.juv` y `n.ad` por los resultados de la ejecución de la primera vez `total.juv` y `total.ad`. Los resultados de la ejecución que te indican cuántos hay que meter ó sacar de cada tipo son `d.juv` y `d.ad`.
+    - Para ejecutar este programa se necesitan varios argumentos, por defecto ya todos estos argumentos tienen vaores, así que la primera vez que se ejecuta, sólo es necesario llamarlo. No obstante, para las veces subsecuentes es necesario sustituir los argumentos `n.juv` y `n.ad` por los resultados de la ejecución de la primera vez `total.juv` y `total.ad`. Los resultados de la ejecución que te indican cuántos hay que meter o sacar de cada tipo son `d.juv` y `d.ad`.
 
 4. Utilizando la cuchara grande toma una muestra y cuenta el número de frijoles no marcados y de frijoles marcados en el paso anterior
 
